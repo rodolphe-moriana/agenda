@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Formulaire d'ajout d'Objet</title>
+	<link type="text/css" rel="stylesheet" href="agenda.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+</head>
+
+<main id="main2">
+
+    <header>
+    </header>
+
+    <body>
+        <form action="agenda.html" method="POST" id="first">
+            <div class="centre">
+                <h1 id="titre2">Nouvel Evenèment :</h1>
+            </div>
+            <div class="centre">
+                <label for="cat"><span class="red">*&nbsp;</span>Catégorie :</label>
+            </div>
+                <div class="centre">
+                    <select name="cat" id="cat">
+                        <option>Détente</option>
+                        <option>Travail</option>
+                        <option>Sport</option>
+                        <option>Autre</option>
+                    </select>
+            </div>
+            <div class="centre">
+                <label for="nomint"><span class="red">*&nbsp;</span>Nom :</label>
+            </div>
+            <div class="centre">
+                <input type="text" id="nomint" placeholder="Nom de l'évenement" required>
+            </div>
+            <div class="centre">
+                <label for="imgup"><span class="red">*&nbsp;</span>Image :</label>
+            </div>
+            <div class="centre">
+                <input type="file" id="imgup" accept="image/x-png,image/gif,image/jpeg" required>
+            </div>
+            <div class="centre">
+                <label for="desc">&nbsp &nbsp Description :</label>
+            </div>
+            <div class="centre">
+                <textarea id="desc" rows="4" cols="50" placeholder="Description de l'évenement"></textarea>
+            </div>
+            <div id="heure">
+                    <label for="hour1"><span class="red">*&nbsp;</span>Heure de début</label>
+                    <select name="hour1" id="hour1">
+                        <option>00</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                    </select>
+                    <p class="hg">H</p>
+                    <label for="hour2">
+                            <span class="red">*&nbsp;</span>Heure de fin</label>
+                    <select name="hour2" id="hour2">
+                        <option>00</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                    </select>
+                    <p class="hg">H</p>
+            </div>
+            <div class="centre">
+                <input type="submit" value="Créer l'évenement" id="button2">
+            </div>
+    </form>
+    </body>
+
+    <footer>
+
+    </footer>
+
+</main>
